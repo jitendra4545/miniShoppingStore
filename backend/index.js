@@ -1,7 +1,7 @@
 const jwt = require('jsonwebtoken');
 const bcrypt = require('bcrypt');
 require('dotenv').config()
-
+const cors=require('cors')
 const express = require('express')
 const { connection } = require('./config/db')
 const { UserModel } = require('./model/UserModel')
